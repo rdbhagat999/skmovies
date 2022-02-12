@@ -25,6 +25,7 @@
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 1rem;
+		width: 100%;
 	}
 	button {
 		background-color: #4caf50;
@@ -36,11 +37,15 @@
 		border-radius: 10px;
 	}
 	input {
-		width: 20%;
 		padding: 0.5rem 1rem;
 		border: none;
 		border: 1px solid #4caf50;
 		border-radius: 10px;
 		margin-right: 5px;
+	}
+	@media screen and (min-width: 768px) {
+		input {
+			width: 40%;
+		}
 	}
 </style>

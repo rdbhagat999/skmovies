@@ -24,5 +24,6 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 		grid-gap: 2rem;
+		margin: 1rem 0;
 	}
 </style>
