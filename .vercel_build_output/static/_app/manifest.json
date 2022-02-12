@@ -1,0 +1,100 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-5cc38509.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-a81b054c.js",
+      "_singletons-a6a7384f.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      "src/routes/__error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/movies/[id].svelte",
+      "src/routes/search/[query].svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-5bcd1b70.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-a81b054c.js",
+      "_singletons-a6a7384f.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-0b8ed56b.css"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "pages/__error.svelte-e6089901.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-a81b054c.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-947dc3fe.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-a81b054c.js",
+      "_config-28d25f79.js",
+      "_MovieCard-310f2661.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-25bfb927.css"
+    ]
+  },
+  "src/routes/movies/[id].svelte": {
+    "file": "pages/movies/_id_.svelte-0bc0c870.js",
+    "src": "src/routes/movies/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-a81b054c.js",
+      "_config-28d25f79.js",
+      "src/routes/__error.svelte"
+    ],
+    "css": [
+      "assets/pages/movies/_id_.svelte-1683b835.css"
+    ]
+  },
+  "src/routes/search/[query].svelte": {
+    "file": "pages/search/_query_.svelte-d0edf96c.js",
+    "src": "src/routes/search/[query].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-a81b054c.js",
+      "_config-28d25f79.js",
+      "_MovieCard-310f2661.js"
+    ],
+    "css": [
+      "assets/pages/search/_query_.svelte-191a6c0a.css"
+    ]
+  },
+  "_vendor-a81b054c.js": {
+    "file": "chunks/vendor-a81b054c.js"
+  },
+  "_singletons-a6a7384f.js": {
+    "file": "chunks/singletons-a6a7384f.js"
+  },
+  "_config-28d25f79.js": {
+    "file": "chunks/config-28d25f79.js"
+  },
+  "_MovieCard-310f2661.js": {
+    "file": "chunks/MovieCard-310f2661.js",
+    "imports": [
+      "_vendor-a81b054c.js"
+    ],
+    "css": [
+      "assets/MovieCard-cfd378c8.css"
+    ]
+  }
+}
