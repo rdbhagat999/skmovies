@@ -38,13 +38,16 @@
 	}
 	@media screen and (min-width: 992px) {
 		img {
-			height: 55vh;
+			height: 75vh;
 		}
 		h2 {
 			font-size: 0.95rem;
 		}
 		P {
 			font-size: 0.85rem;
+		}
+		.description {
+			min-height: 65px;
 		}
 	}
 	@media screen and (min-width: 1200px) {
@@ -55,12 +58,6 @@
 	@media screen and (min-width: 1400px) {
 		img {
 			height: 75vh;
-		}
-		h2 {
-			font-size: 2.4rem;
-		}
-		P {
-			font-size: 1.75rem;
 		}
 	}
 </style>

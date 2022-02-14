@@ -56,20 +56,13 @@
 			font-size: 1.2rem;
 		}
 		P {
-			font-size: 1rem;
+			font-size: 0.9rem;
 		}
-
 		.movie-details {
 			margin: 1.5rem 12rem;
 		}
 
 		@media screen and (min-width: 1400px) {
-			h1 {
-				font-size: 2.4rem;
-			}
-			P {
-				font-size: 1.75rem;
-			}
 			.movie-details {
 				margin: 1.8rem 15rem;
 			}
